@@ -1,20 +1,20 @@
- Data Folder – AtliQ Hospitality Revenue Analytics
+# Data Folder – AtliQ Hospitality Revenue Analytics
 
- 📁 Overview
+## 📁 Overview
 This folder contains the raw CSV datasets used to build the Power BI revenue analytics dashboard for the AtliQ Grands hospitality case study.
 
 The data is provided in a structured format and follows a **star schema**, enabling efficient data modeling and accurate metric calculations in Power BI.
 
 ---
 
- 📊 Dataset Description
+## 📊 Dataset Description
 
- 🔹 Dimension Tables
+### 🔹 Dimension Tables
 
- `dim_date.csv`
+#### `dim_date.csv`
 Contains calendar-related information used for time-based analysis.
 
-Key columns:
+**Key columns:**
 - `date` – Calendar date
 - `mmm yy` – Month-Year representation
 - `week no` – Week number
@@ -22,10 +22,10 @@ Key columns:
 
 ---
 
-`dim_hotels.csv`
+#### `dim_hotels.csv`
 Contains hotel-level master data.
 
-Key columns:
+**Key columns:**
 - `property_id` – Unique hotel identifier
 - `property_name` – Hotel name
 - `category` – Luxury or Business
@@ -33,21 +33,21 @@ Key columns:
 
 ---
 
- `dim_rooms.csv`
+#### `dim_rooms.csv`
 Contains room category information.
 
-Key columns:
+**Key columns:**
 - `room_id` – Room identifier
 - `room_class` – Standard, Elite, Premium, Presidential
 
 ---
 
- 🔹 Fact Tables
+### 🔹 Fact Tables
 
- `fact_bookings.csv`
+#### `fact_bookings.csv`
 Transaction-level booking data capturing individual reservations.
 
-Key columns:
+**Key columns:**
 - `booking_id`
 - `property_id`
 - `booking_date`
@@ -62,10 +62,10 @@ Key columns:
 
 ---
 
-`fact_aggregated_bookings.csv`
+#### `fact_aggregated_bookings.csv`
 Daily aggregated room-level data used for occupancy and capacity metrics.
 
-Key columns:
+**Key columns:**
 - `property_id`
 - `check_in_date`
 - `room_category`
@@ -74,20 +74,20 @@ Key columns:
 
 ---
 
- 🧠 Modeling Notes
+## 🧠 Modeling Notes
 - The dataset follows a **star schema** design.
 - All dimension tables are connected to the fact tables using one-to-many relationships.
 - Occupancy, ADR, and RevPAR metrics are derived using the aggregated fact table to ensure performance and accuracy.
 
 ---
 
- ⚠️ Usage Notes
+## ⚠️ Usage Notes
 - These files are intended for **analytical and educational purposes**.
 - Data is assumed to be clean and does not include personally identifiable information (PII).
 - The data represents a **simulated real-world hospitality scenario**.
 
 ---
 
- 📌 Source
+## 📌 Source
 This dataset is part of a hospitality revenue analytics case study inspired by real-world business problems faced by hotel chains.
 
