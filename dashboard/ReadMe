@@ -1,15 +1,15 @@
-# Dashboard Folder – Power BI Artifacts
+ Dashboard Folder – Power BI Artifacts
 
-## 📊 Overview
+ 📊 Overview
 This folder contains the Power BI dashboard files and visual assets created for the AtliQ Grands hospitality revenue analytics project.
 
 The dashboard is designed to provide a **Level-1 performance view** for revenue management, focusing on demand, pricing efficiency, capacity utilization, and booking realization.
 
 ---
 
-## 📁 Contents
+ 📁 Contents
 
-### 🔹 `AtliQ_Revenue_Dashboard.pbix`
+🔹 `AtliQ_Revenue_Dashboard.pbix`
 The main Power BI report file containing:
 - Data model (star schema)
 - DAX measures for hospitality KPIs
@@ -18,13 +18,13 @@ The main Power BI report file containing:
 
 ---
 
-### 🔹 `dashboard_screenshot.png`
+🔹 `dashboard_screenshot.png`
 A static preview image of the final dashboard used for documentation and quick reference in the GitHub repository.
 
 
 ---
 
-## ⚠️ Usage Notes
+⚠️ Usage Notes
 - The `.pbix` file can be opened using **Microsoft Power BI Desktop**.
 - All datasets are sourced from the `data/` folder.
 - The dashboard is intended for analytical and demonstration purposes.
