@@ -1,19 +1,20 @@
- Documentation – Project Reference Material
+# Documentation – Project Reference Material
 
- 📘 Overview
+## 📘 Overview
 This folder contains supporting documentation for the AtliQ Grands hospitality revenue analytics project.
 
 The documents provide context on the business problem, metric definitions, and key insights derived from the dashboard.
 
 ---
 
- 📁 Contents
+## 📁 Contents
 
- 🔹 `business_problem.md`
+### 🔹 `business_problem.md`
 Outlines the business context, challenges faced by the hospitality client, and the objectives of the analytics solution.
 
+---
 
- 🔹 `metrics_definitions.md`
+### 🔹 `metrics_definitions.md`
 Defines all hospitality KPIs used in the dashboard, including:
 - Revenue
 - Occupancy %
@@ -27,12 +28,12 @@ Each metric is explained with its business meaning and calculation logic.
 
 ---
 
- 🔹 `insights_summary.md`
+### 🔹 `insights_summary.md`
 Summarizes the key insights and observations derived from the dashboard, written in an executive-friendly format.
 
 ---
 
- 🎯 Purpose
+## 🎯 Purpose
 These documents are intended to:
 - Improve transparency and reproducibility
 - Help reviewers understand business logic and assumptions
